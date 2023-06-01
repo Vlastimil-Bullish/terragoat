@@ -53,7 +53,7 @@ To prevent vulnerable infrastructure from arriving to production see: [Bridgecre
 
 #### Installation (AWS)
 
-You can deploy multiple TerraGoat stacks in a single AWS account using the parameter `TF_VAR_environment`.
+You can deploy multiple TerraGoat stacks in a single sasasasAWS account using the parameter `TF_VAR_environment`.
 
 #### Create an S3 Bucket backend to keep Terraform state
 
