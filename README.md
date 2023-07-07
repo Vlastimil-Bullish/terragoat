@@ -22,24 +22,7 @@ TerraGoat is a learning and training project that demonstrates how common config
 * [Getting Started](#getting-started)
   * [AWS](#aws-setup)
   * [Azure](#azure-setup)
-  * [GCP](#gcp-setup)
-* [Contributing](#contributing)
-* [Support](#support)
-
-## Introduction
-
-TerraGoat was built to enable DevSecOps design and implement a sustainable misconfiguration prevention strategy. It can be used to test a policy-as-code framework like [Bridgecrew](https://bridgecrew.io/?utm_source=github&utm_medium=organic_oss&utm_campaign=terragoat) & [Checkov](https://github.com/bridgecrewio/checkov/), inline-linters, pre-commit hooks or other code scanning methods.
-
-TerraGoat follows the tradition of existing *Goat projects that provide a baseline training ground to practice implementing secure development best practices for cloud infrastructure.
-
-## Important notes
-
-* **Where to get help:** the [Bridgecrew Community Slack](https://slack.bridgecrew.io/?utm_source=github&utm_medium=organic_oss&utm_campaign=terragoat)
-
-Before you proceed please take a not of these warning:
-> :warning: TerraGoat creates intentionally vulnerable AWS resources into your account. **DO NOT deploy TerraGoat in a production environment or alongside any sensitive AWS resources.**
-
-## Requirements
+  * [GCP](#gcp-setup)dasdasdadsa
 
 * Terraform 0.12
 * aws cli
