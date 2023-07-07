@@ -13,68 +13,9 @@
 TerraGoat is Bridgecrew's "Vulnerable by Design" Terraform repository.
 ![Terragoat](terragoat-logo.png)
 
-TerraGoat is Bridgecrew's "Vulnerable by Design" Terraform repository.
-TerraGoat is a learning and training project that demonstrates how common configuration errors can find their way into production cloud environments.
-
-## Table of Contents
-
-* [Introduction](#introduction)
-* [Getting Started](#getting-started)
-  * [AWS](#aws-setup)
-  * [Azure](#azure-setup)
-  * [GCP](#gcp-setup)
-* [Contributing](#contributing)
-* [Support](#support)
-
-## Introduction
-
-TerraGoat was built to enable DevSecOps design and implement a sustainable misconfiguration prevention strategy. It can be used to test a policy-as-code framework like [Bridgecrew](https://bridgecrew.io/?utm_source=github&utm_medium=organic_oss&utm_campaign=terragoat) & [Checkov](https://github.com/bridgecrewio/checkov/), inline-linters, pre-commit hooks or other code scanning methods.
-
-TerraGoat follows the tradition of existing *Goat projects that provide a baseline training ground to practice implementing secure development best practices for cloud infrastructure.
-
-## Important notes
-
-* **Where to get help:** the [Bridgecrew Community Slack](https://slack.bridgecrew.io/?utm_source=github&utm_medium=organic_oss&utm_campaign=terragoat)
-
-Before you proceed please take a not of these warning:
-> :warning: TerraGoat creates intentionally vulnerable AWS resources into your account. **DO NOT deploy TerraGoat in a production environment or alongside any sensitive AWS resources.**
-
-## Requirements
-
-* Terraform 0.12
-* aws cli
-* azure cli
-
-To prevent vulnerable infrastructure from arriving to production see: [Bridgecrew](https://bridgecrew.io/?utm_source=github&utm_medium=organic_oss&utm_campaign=terragoat) & [checkov](https://github.com/bridgecrewio/checkov/), the open source static analysis tool for infrastructure as code.
-
-## Getting started
-
-### AWS Setup
-
-#### Installation (AWS)
-
-You can deploy multiple TerraGoat stacks in a single AWS account using the parameter `TF_VAR_environment`.
-
-#### Create an S3 Bucket backend to keep Terraform state
-
-```bash
+TerraGoat is Bridgecrew's "Vulnerable by Design" Terraform repository.fsdfdsf
 export TERRAGOAT_STATE_BUCKET="mydevsecops-bucket"
-export TF_VAR_company_name=acme
-export TF_VAR_environment=mydevsecops
-export TF_VAR_region="us-west-2"
-
-aws s3api create-bucket --bucket $TERRAGOAT_STATE_BUCKET \
-    --region $TF_VAR_region --create-bucket-configuration LocationConstraint=$TF_VAR_region
-
-# Enable versioning
-aws s3api put-bucket-versioning --bucket $TERRAGOAT_STATE_BUCKET --versioning-configuration Status=Enabled
-
-# Enable encryption
-aws s3api put-bucket-encryption --bucket $TERRAGOAT_STATE_BUCKET --server-side-encryption-configuration '{
-  "Rules": [
-    {
-      "ApplyServerSideEncryptionByDefault": {
-        "SSEAlgorithm": "aws:kms"
+export TF_VAR_company_name=acme5565565665
       }
     }
   ]
