@@ -19,50 +19,7 @@ TerraGoat is a learning and training project that demonstrates how common config
 ## Table of Contents
 
 * [Introduction](#introduction)
-* [Getting Started](#getting-started)
-  * [AWS](#aws-setup)
-  * [Azure](#azure-setup)
-  * [GCP](#gcp-setup)
-* [Contributing](#contributing)
-* [Support](#support)
-
-## Introduction
-
-TerraGoat was built to enable DevSecOps design and implement a sustainable misconfiguration prevention strategy. It can be used to test a policy-as-code framework like [Bridgecrew](https://bridgecrew.io/?utm_source=github&utm_medium=organic_oss&utm_campaign=terragoat) & [Checkov](https://github.com/bridgecrewio/checkov/), inline-linters, pre-commit hooks or other code scanning methods.
-
-TerraGoat follows the tradition of existing *Goat projects that provide a baseline training ground to practice implementing secure development best practices for cloud infrastructure.
-
-## Important notesfgdgdgdfg
-#### Installation (AWS)
-
-You can deploy multiple TerraGoat stacks in a single AWS account using the parameter `TF_VAR_environment`.
-
-#### Create an S3 Bucket backend to keep Terraform state
-
-```bash
-export TERRAGOAT_STATE_BUCKET="mydevsecops-bucket"
-export TF_VAR_company_name=acme
-export TF_VAR_environment=mydevsecops
-export TF_VAR_region="us-west-2"
-
-aws s3api create-bucket --bucket $TERRAGOAT_STATE_BUCKET \
-    --region $TF_VAR_region --create-bucket-configuration LocationConstraint=$TF_VAR_region
-
-# Enable versioning
-aws s3api put-bucket-versioning --bucket $TERRAGOAT_STATE_BUCKET --versioning-configuration Status=Enabled
-
-# Enable encryption
-aws s3api put-bucket-encryption --bucket $TERRAGOAT_STATE_BUCKET --server-side-encryption-configuration '{
-  "Rules": [
-    {
-      "ApplyServerSideEncryptionByDefault": {
-        "SSEAlgorithm": "aws:kms"
-      }
-    }
-  ]
-}'
-```
-
+* [Getting Started](#getting-started)sdad
 #### Apply TerraGoat (AWS)
 
 ```bash
