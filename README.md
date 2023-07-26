@@ -13,7 +13,7 @@
 TerraGoat is Bridgecrew's "Vulnerable by Design" Terraform repository.
 ![Terragoat](terragoat-logo.png)
 
-TerraGoat is Bridgecrew's "Vulnerable by Design" Terraform repository.
+TerraGoat is Bridgecrew's "Vulnerable by Design" Terraform repository.dsadadasd
 TerraGoat is a learning and training project that demonstrates how common configuration errors can find their way into production cloud environments.
 
 ## Table of Contents
@@ -27,11 +27,11 @@ TerraGoat is a learning and training project that demonstrates how common config
 * [Support](#support)
 
 ## Introduction
-
+asdadd
 TerraGoat was built to enable DevSecOps design and implement a sustainable misconfiguration prevention strategy. It can be used to test a policy-as-code framework like [Bridgecrew](https://bridgecrew.io/?utm_source=github&utm_medium=organic_oss&utm_campaign=terragoat) & [Checkov](https://github.com/bridgecrewio/checkov/), inline-linters, pre-commit hooks or other code scanning methods.
 
 TerraGoat follows the tradition of existing *Goat projects that provide a baseline training ground to practice implementing secure development best practices for cloud infrastructure.
-
+sdadada
 ## Important notes
 
 * **Where to get help:** the [Bridgecrew Community Slack](https://slack.bridgecrew.io/?utm_source=github&utm_medium=organic_oss&utm_campaign=terragoat)
