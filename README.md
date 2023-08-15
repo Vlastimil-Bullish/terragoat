@@ -8,25 +8,7 @@
 [![PCI](https://www.bridgecrew.cloud/badges/github/bridgecrewio/terragoat/pci)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=bridgecrewio%2Fterragoat&benchmark=PCI-DSS+V3.2)
 ![Terraform Version](https://img.shields.io/badge/tf-%3E%3D0.12.0-blue.svg) 
 [![slack-community](https://img.shields.io/badge/Slack-4A154B?style=plastic&logo=slack&logoColor=white)](https://slack.bridgecrew.io/)
-
-
-TerraGoat is Bridgecrew's "Vulnerable by Design" Terraform repository.
-![Terragoat](terragoat-logo.png)
-
-TerraGoat is Bridgecrew's "Vulnerable by Design" Terraform repository.
-TerraGoat is a learning and training project that demonstrates how common configuration errors can find their way into production cloud environments.
-
-## Table of Contents
-
-* [Introduction](#introduction)
-* [Getting Started](#getting-started)
-  * [AWS](#aws-setup)
-  * [Azure](#azure-setup)
-  * [GCP](#gcp-setup)
-* [Contributing](#contributing)
-* [Support](#support)
-
-## Introduction
+gfdfgdgdfg
 
 TerraGoat was built to enable DevSecOps design and implement a sustainable misconfiguration prevention strategy. It can be used to test a policy-as-code framework like [Bridgecrew](https://bridgecrew.io/?utm_source=github&utm_medium=organic_oss&utm_campaign=terragoat) & [Checkov](https://github.com/bridgecrewio/checkov/), inline-linters, pre-commit hooks or other code scanning methods.
 
