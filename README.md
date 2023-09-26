@@ -82,19 +82,7 @@ aws s3api put-bucket-encryption --bucket $TERRAGOAT_STATE_BUCKET --server-side-e
 ```
 
 #### Apply TerraGoat (AWS)
-
-```bash
-cd terraform/aws/
-terraform init \
--backend-config="bucket=$TERRAGOAT_STATE_BUCKET" \
--backend-config="key=$TF_VAR_company_name-$TF_VAR_environment.tfstate" \
--backend-config="region=$TF_VAR_region"
-
-terraform apply
-```
-
-#### Remove TerraGoat (AWS)
-
+sda
 ```bash
 terraform destroy
 ```
