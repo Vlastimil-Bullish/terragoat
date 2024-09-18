@@ -24,7 +24,7 @@ TerraGoat is a learning and training project that demonstrates how common config
   * [Azure](#azure-setup)
   * [GCP](#gcp-setup)
 * [Contributing](#contributing)
-* [Support](#support)
+* [Support](#support)ddd
 
 ## Introduction
 
