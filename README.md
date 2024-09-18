@@ -19,7 +19,7 @@ TerraGoat is a learning and training project that demonstrates how common config
 ## Table of Contents
 
 * [Introduction](#introduction)
-* [Getting Started](#getting-started)
+* [Getting Started](#getting-started)sss
   * [AWS](#aws-setup)dddd
   * [Azure](#azure-setup)
   * [GCP](#gcp-setup)
