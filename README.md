@@ -67,10 +67,7 @@ aws s3api create-bucket --bucket $TERRAGOAT_STATE_BUCKET \
     --region $TF_VAR_region --create-bucket-configuration LocationConstraint=$TF_VAR_region
 
 # Enable versioning
-aws s3api put-bucket-versioning --bucket $TERRAGOAT_STATE_BUCKET --versioning-configuration Status=Enabled
-
-# Enable encryption
-aws s3api put-bucket-encryption --bucket $TERRAGOAT_STATE_BUCKET --server-side-encryption-configuration '{
+aws s3api put-bucket-versioning --bucket $TERRAGOAT_STATE_BUCKET --versioning-configuration Status=Enableddfsfsfssfsf
   "Rules": [
     {
       "ApplyServerSideEncryptionByDefault": {
